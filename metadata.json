@@ -1,0 +1,6 @@
+{
+  "name": "梅西世界杯",
+  "description": "一款以梅西世界杯夺冠历程为背景的《黄金矿工》经典玩法休闲游戏。抓取大力神杯、金球奖和金靴，避开防守球员和红牌，助梅西圆梦世界杯！",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
