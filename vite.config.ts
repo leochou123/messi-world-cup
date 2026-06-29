@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/messi-world-cup/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
