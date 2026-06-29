@@ -26,11 +26,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 24 # 升级到 Node 24，解决黄色警告
 
       - name: Install dependencies
-        run: npm install
+        run: npm install # 让机器人在打包时自己生成依赖，不再强求锁文件
 
       - name: Build Game
         run: npm run build
